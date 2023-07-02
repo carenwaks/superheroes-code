@@ -2,13 +2,13 @@
 ## Setup ##
 - Clone the repo
 - Navigate to the rails application by running
-** cd superhero-shop **
-- Run ** bundle install ** to load the necessary dependencies
+  `cd superhero-shop`
+- Run  `bundle install`  to load the necessary dependencies
 - To setup the backend, run:
-** rails db:migrate db:seed
+  `rails db:migrate db:seed`
 - To start the server , run:
-** rails s **
-Check the app running on " http://127.0.0.1:3000/powers
+` rails s `
+Check the app running on " http://127.0.0.1:3000
 
 This project is to build a rails API backend that has the following :
 ## Models ##
