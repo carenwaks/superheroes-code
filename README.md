@@ -1,6 +1,18 @@
+# Superhero code challenge #
+## Setup ##
+- Clone the repo
+- Navigate to the rails application by running
+** cd superhero-shop **
+- Run ** bundle install ** to load the necessary dependencies
+- To setup the backend, run:
+** rails db:migrate db:seed
+- To start the server , run:
+** rails s **
+Check the app running on " http://127.0.0.1:3000/powers
+
 This project is to build a rails API backend that has the following :
 ## Models ##
-You need to create the following relationships:
+The models have the following relationships:
 
 - A `Hero` has many `Power`s through `HeroPower`
 
@@ -8,13 +20,6 @@ You need to create the following relationships:
 
 - A `HeroPower` belongs to a `Hero` and belongs to a `Power`
 
-Start by creating the models and migrations for the following database tables:
-
-Add any code needed in the model files to establish the relationships.
-
-Then, run the migrations
-
-You are welcome to generate your own seed data to test the application.
 
 ## Validations ##
 Add validations to the `HeroPower` model:
