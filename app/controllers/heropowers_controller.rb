@@ -9,7 +9,7 @@ class HeropowersController < ApplicationController
         if heropower.save
             render json: heropower, status: :created
         else
-            render json: { "errors": ["validation errors"] }, status: :unprocessible
+            render json: { "errors":  }, status: :unprocessable_entity
         end
     end
 
